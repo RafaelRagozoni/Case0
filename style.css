@@ -1,0 +1,51 @@
+/*
+ *@author: Rafael Ragozoni Conrado
+ *@version: 0.0.1
+ */
+
+
+/*Itens centralizados*/
+
+.centraliza {
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Decoração do titulo do produto */
+
+#titulo-produto {
+    text-decoration: underline;
+    color: #388889;
+}
+
+
+/* Decoração da seçao de formulario */
+
+#secao-form {
+    background-color: #e6e6e6;
+    padding: 10vh 0;
+}
+
+
+/* Decoração do formulario */
+
+.lp-form {
+    padding: 2%;
+    background-color: #298b8c;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-laranja {
+    background-color: #e88220;
+    border-color: #e88220;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-laranja:hover {
+    background-color: #974a02;
+    border-color: #974a02;
+    color: white;
+}

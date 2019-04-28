@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Silhouete Brasil</title>
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Meu JavaScript -->
+</head>
+
+<body>
+    <!-- Seção da logo -->
+    <section>
+        <div class="container">
+            <div class="row centraliza">
+                <div class="col-xs-12">
+                    <img src="./assets/Logo.PNG" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="Logo da Silhouete Brasil" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção do form-->
+    <section id="secao-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row centraliza">
+                        <h1 class="mb-3" id="titulo-produto">Caixinha para biscoitos</h1>
+                        <h5 class="mb-5">
+                            Arquivos prontos para o corte. Use sua imaginção, faça e personalize como desejar.
+                        </h5>
+                    </div>
+                    <div class="row centraliza">
+                        <img src="./assets/Produto.PNG" width="400px" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="Caixinha de biscoitos" />
+                    </div>
+                </div>
+                <div class="col-sm-4 offset-sm-1 lp-form">
+                    <div class="container">
+                        <div class="row">
+                            <h4><b>Baixe os moldes gratuitamente aqui!</b></h4>
+                            <br />
+                            <p>
+                                Os arquivos estão em formato estudio para utilização nas Silhouettes
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="Nome">Nome*</label>
+                                        <input type="text" class="form-control" name="Nome" id="Nome" required />
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="email">Email*</label>
+                                        <input type="email" class="form-control" name="email" id="email" required />
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="mes-aniversario">Qual o mês do seu aniversário?*</label
+                      >
+                      <select
+                        class="form-control"
+                        name="mes-aniversario"
+                        id="mes-aniversario"
+                        placeholder="Selecione"
+                        required
+                      >
+                        <option value="" disabled selected hidden
+                          >Selecione</option
+                        >
+                        <option value="1">Janeiro</option>
+                        <option value="2">Fevereiro</option>
+                        <option value="3">Março</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Maio</option>
+                        <option value="6">Junho</option>
+                        <option value="7">Julho</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Setembro</option>
+                        <option value="10">Outubro</option>
+                        <option value="11">Novembro</option>
+                        <option value="12">Dezembro</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label>Quais equipamentos você possui?*</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Silhouete Cameo 3" id="cameo3" />
+                                            <label class="form-check-label" for="cameo3">
+                          Silhouete Cameo 3
+                        </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Silhouete Cameo 2" id="cameo2" />
+                                            <label class="form-check-label" for="cameo2">
+                          Silhouete Cameo 2
+                        </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Silhouete Portrait" id="portrait" />
+                                            <label class="form-check-label" for="portrait">
+                          Silhouete Portrait
+                        </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Silhouete Curio" id="curio" />
+                                            <label class="form-check-label" for="curio">
+                          Silhouete Curio
+                        </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Silhouete Mint" id="mint" />
+                                            <label class="form-check-label" for="mint">
+                          Silhouete Mint
+                        </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Mimo Stamping" id="stamping" />
+                                            <label class="form-check-label" for="stamping">
+                          Mimo Stamping
+                        </label>
+                                        </div>
+
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Mimo Embossing" id="embossing" />
+                                            <label class="form-check-label" for="embossing">
+                          Mimo Embossing
+                        </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="nenhum" />
+                                            <label class="form-check-label" for="nenhum">
+                          Nenhum
+                        </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="soma">2 + 6 = ?*</label>
+                                        <input type="number" class="form-control" name="soma" id="soma" required />
+                                    </div>
+                                    <div class="form-group row">
+
+                                        <button type="submit" class="btn btn-block btn-warning btn-laranja">
+                          Baixar material
+                        </button>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Meu JavaScript -->
+    <script src="./form.js"></script>
+</body>
+
+</html>
