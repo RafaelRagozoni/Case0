@@ -49,3 +49,14 @@
     border-color: #974a02;
     color: white;
 }
+
+#secao-rdp {
+    padding: 2%;
+    background-color: #298b8c;
+    color: white;
+}
+
+#secao-rdp a {
+    color: white;
+    text-decoration: underline;
+}
